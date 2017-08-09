@@ -2,18 +2,18 @@ package homework4_ex2;
 
 public class Customer extends Person {
 
-	private int cutomerNumber;
+	private String cutomerNumber;
 
 	public Customer() {
 		// TODO Auto-generated constructor stub
 		super();
 	}
 
-	public int getCustomerNumber() {
+	public String getCustomerNumber() {
 		return this.cutomerNumber;
 	}
 
-	public void setCustomerNumber(int number) {
+	public void setCustomerNumber(String number) {
 		this.cutomerNumber = number;
 	}
 

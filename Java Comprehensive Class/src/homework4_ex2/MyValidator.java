@@ -37,7 +37,7 @@ public class MyValidator extends OOValidator {
 		String userInput;
 		do{
 			userInput = this.getRequiredString(prompt);
-			if(userInput.equalsIgnoreCase(s1) || userInput.equalsIgnoreCase(s1) ){
+			if(userInput.equalsIgnoreCase(s1) || userInput.equalsIgnoreCase(s2) ){
 				break;
 			}
 			else{
